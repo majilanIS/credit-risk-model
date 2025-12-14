@@ -1,0 +1,10 @@
+
+mlflow
+pytest
+scikit-learn
+pandas
+numpy
+xverse
+
+
+

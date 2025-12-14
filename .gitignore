@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.env
+*.venv
+env/
+venv/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Data files
+data/processed/
+*.csv
+data/raw/*.csv
+
+# MLflow artifacts
+mlruns/
+mlflow.db
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
