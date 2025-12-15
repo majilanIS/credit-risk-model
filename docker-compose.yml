@@ -1,0 +1,12 @@
+version: "3.9"
+
+services:
+  credit-api:
+    build: .
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./src:/app/src
+    environment:
+      - MODEL_NAME=CreditRiskModel
+      - MLFLOW_TRACKING_URI=http://your-mlflow-server:5000
